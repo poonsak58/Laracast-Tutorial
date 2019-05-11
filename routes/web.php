@@ -12,7 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $tasks = [
+        'go to the store',
+        'go to the market',
+        'go to work'
+    ];
+
+//    return view('welcome', [
+//        'tasks' => $tasks,
+//        'laracast' => 'Laracasts',
+//        'name' => request('name')
+//    ]);
+
+    // OR
+
+    return view('welcome')->withTasks($tasks)->withLaracast('Laracasts')->withName(request('name'));
 });
 
 Route::get('/contact', function () {
