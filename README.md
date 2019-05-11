@@ -12,3 +12,5 @@ link : https://laracasts.com/series/laravel-from-scratch-2018
 http://localhost:8000/?name=fueymc
 
 ---
+#### EP 6 - Controllers 101
+`php artisan make:controller PagesController`
