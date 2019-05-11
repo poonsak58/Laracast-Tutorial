@@ -8,9 +8,9 @@
     <title></title>
 </head>
 <body>
-    <h1>Welcome to Laracasts Here we go!!</h1>
+<h1>Contact Page</h1>
 
-    <a href="/contact">Contact</a>
-    <a href="/about">About</a>
+<a href="/contact">Contact</a>
+<a href="/about">About</a>
 </body>
 </html>
